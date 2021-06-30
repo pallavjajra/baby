@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*::-moz-selection {
+  background: #003971;
+  color: #fff;
+}
+
+*::selection {
+  background: #003971;
+  color: #fff;
+}
+
+.top-header .top-header-bottom {
+  background: #003971;
+  color: #fff;
+}
+
+.top-header .top-header-bottom p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.menu-head .title-bar {
+  background: #003971;
+}
+
+.menu-head .title-bar img {
+  max-width: 50%;
+}
+
+.menu-head .title-bar i {
+  font-size: 20px;
+  padding-right: 8px;
+}
+
+.menu-head .top-bar {
+  position: relative;
+  padding: 0;
+}
+
+.menu-head .top-bar .dropdown {
+  height: 90%;
+  position: fixed;
+  top: 156px;
+  left: 0;
+  width: 70%;
+  z-index: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background: #003971;
+}
+
+.menu-head .top-bar .dropdown a {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.navigation-section .title-bar {
+  background: #003971;
+  color: #fff;
+}
+
+.navigation-section .title-bar .dropdown .nav-link {
+  width: 100%;
+  text-align: left;
+}
+
+.navigation-section .title-bar .dropdown .nav-link:hover {
+  color: #fff;
+  background: #003971;
+}
+
+.navigation-section .title-bar .dropdown .nav-link-icon {
+  color: #fff;
+}
+
+.navigation-section .title-bar .title-link {
+  color: #fff;
+}
+
+.header {
+  border-bottom: 1px solid #003971;
+}
+
+.header .grid-x .store i {
+  font-size: 25px;
+  color: #003971;
+}
+
+.header .grid-x .store span {
+  font-size: 20px;
+  color: #003971;
+}
+
+.header .grid-x .head-icon i {
+  font-size: 25px;
+  color: #003971;
+  padding-right: 14px;
+}
+
+.header .grid-x .head-img img {
+  max-width: 83%;
+}
+
+.banner {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.banner .cell img {
+  width: 100%;
+}
+
+.orbit-section {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.orbit-section .orbit-container {
+  min-height: 500px;
+}
+
+.orbit-section .orbit-container .orbit-slide img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.entertainment .cell img {
+  width: 100%;
+}
+
+.summer .cell img {
+  width: 100%;
+}
+
+.customer {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.customer h2 {
+  color: #003971;
+}
+
+.customer h3 a {
+  border: 2px solid #003971;
+  border-radius: 5rem;
+  font-size: 21px;
+  padding: 5px 18px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.customer h3 a:hover {
+  background: #003971;
+  color: #fff;
+}
+
+.customer h3 a i {
+  font-size: 15px;
+}
+
+.customer .item {
+  -webkit-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 15px;
+}
+
+.customer .item img {
+  width: 225px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.customer .item h6 {
+  color: #003971;
+}
+
+.customer .item h6 span {
+  color: #333333;
+  text-decoration: line-through;
+  margin: 0 10px;
+}
+
+.customer .item h5 {
+  margin-top: 24px;
+}
+
+.customer .item h5 a {
+  color: #fff;
+  background: #003971;
+  border-radius: 5rem;
+  padding: 12px 23px;
+  font-size: 15px;
+  border: 2px solid #003971;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+.customer .item h5 a:hover {
+  background: #fff;
+  color: #003971;
+}
+
+.footer .cell {
+  margin: 20px 0;
+}
+
+.footer .cell .icon-box i {
+  border-radius: 50%;
+  background: #003971;
+  padding: 12px;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #003971;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+  margin: 6px;
+}
+
+.footer .cell .icon-box i:hover {
+  background: #fff;
+  color: #003971;
+}
+
+.footer .cell ul a {
+  color: #000;
+}
+
+.footer .cell h6 {
+  font-weight: bold;
+}
+
+hr {
+  max-width: 100%;
+  margin: 0;
+}
+
+.end-section p {
+  font-size: 10px;
+  color: #666;
+}
+
+.end-section .cards {
+  text-align: right;
+}
+
+.end-section .cards a {
+  font-size: 48px;
+  color: #003971;
+}
+
+@media only screen and (min-width: 641px) {
+  .menu-head .top-bar {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .header {
+    display: none;
+  }
+  .navigation-section {
+    display: none;
+  }
+  .footer {
+    text-align: center;
+  }
+  .end-section .cards {
+    text-align: center;
+  }
+}
